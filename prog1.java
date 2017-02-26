@@ -4,9 +4,11 @@ class prog1
 {
 public static void main(String args[])
 {
+
+int n;
 Scanner s= new Scanner(System .in);
 
-int n= s.NextInt();
+n= s.NextInt();
 
 if(n>0)
 System.out.println("Positive number");
